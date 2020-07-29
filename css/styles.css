@@ -166,3 +166,56 @@ li{
     }
     /**/
 }
+
+.david_principal{
+    border: thin solid grey;
+    margin: 20px 5px 0px 5px;
+    padding: 5px 5px 5px 5px;
+    background-color: #f4e04d;
+}
+
+.david_principal div{
+    display: flex;
+}
+
+.david_photo_room{
+    width: 30%;
+    max-height: 250px;
+    margin: 5px 5px 5px 5px;
+    border: thin solid black;
+}
+
+.david_desc_room{
+    width: 45%;
+    margin: 5px 10px 5px 10px;
+}
+
+.david_price_room{
+    width: 25%;
+    margin: 5px 5px 5px 10px;
+}
+
+.david_button_reserva {
+    max-height: 70px;
+    border: none;
+    background-color: #16425B;
+    color: #7e7a7a !important;
+    font-weight: 100;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+
+.david_button_reserva:hover {
+    color: white !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: #a30b2c;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}
+
+    
