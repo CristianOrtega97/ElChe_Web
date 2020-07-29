@@ -32,7 +32,7 @@ if ($connection) {
         <div class="contenedor">
             <div class="barra-navegacion">
                 <div class="logo">
-                <img src="../img/che.jpg" alt="logo ">
+                <img src="../img/.jpg" alt="logo ">
                 </div>
 
                 <ul id="myDIV" class="menu-principal">
