@@ -58,7 +58,7 @@ if ($connection) {
                 <div>
                 Precios
                 </div>
-                    <a class="david_button_reserva" href="add-website-here" target="_blank" rel="nofollow noopener">Reserva YA!</a>
+                    <a class="david_button_reserva" href="pagos.php" target="_blank" rel="nofollow noopener">Reserva YA!</a>
             </div>
         </div>
     </section>
@@ -74,7 +74,7 @@ if ($connection) {
             </div>
              <div class="david_price_room">
                 Precios
-                <a class="david_button_reserva" href="add-website-here" target="_blank" rel="nofollow noopener">Reserva YA!</a>
+                <a class="david_button_reserva" href="pagos.php" target="_blank" rel="nofollow noopener">Reserva YA!</a>
             </div>
         </div>
     </section>
@@ -90,7 +90,7 @@ if ($connection) {
             </div>
              <div class="david_price_room">
                 Precios
-                <a class="david_button_reserva" href="add-website-here" target="_blank" rel="nofollow noopener">Reserva YA!</a>
+                <a class="david_button_reserva" href="pagos.php" target="_blank" rel="nofollow noopener">Reserva YA!</a>
 
             </div>
         </div>
@@ -107,7 +107,7 @@ if ($connection) {
             </div>
              <div class="david_price_room">
                 Precios
-                <a class="david_button_reserva" href="add-website-here" target="_blank" rel="nofollow noopener">Reserva YA!</a>
+                <a class="david_button_reserva" href="pagos.php" target="_blank" rel="nofollow noopener">Reserva YA!</a>
 
             </div>
         </div>

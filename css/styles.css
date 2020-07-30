@@ -89,6 +89,10 @@ hr{
     display: flex;
     justify-content: center;
 }
+.logo img {
+    width: 15rem;
+    height: 10rem;
+}
 
 li{
     display: inline;
@@ -502,4 +506,163 @@ section.text-one{
       display: inline-block;
       font-size: 16px;
     }
+
+/*Aviso de privacidad*/
+section.Aviso{
+    background-color: #3A7CA5;
+    color: #2B2D42;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
     
+    #id-example-one{
+      background-color: #16425B;
+      color: #c5d5ea;
+      padding: 5% 5% 5% 5%;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+/* pagos */
+.main-container{
+    background-color: white;
+    border-radius: 5%;
+    color: var(--blue2);
+
+}
+
+@media(min-width: 768px) {
+    .main-container{
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 15%;
+
+    }
+    
+    .exp-select{
+        padding: 2rem 0;        
+    }
+}
+
+.exp-select{
+    display: flex;
+    flex-direction: column;
+}
+
+.exp-select select{
+    width: 50%;
+}
+
+.month-select,.year-select{
+    
+    border: none;
+    border-bottom: 2px solid var(--textColor1);
+    padding: 1rem;
+    color: var(--blue2);
+    font-family: var(--font);
+    outline: none;
+
+}
+
+.main-container{
+    padding: 5rem 5rem;
+
+}
+@media(min-width: 768px) {
+    .main-container{
+        padding: 10rem 25rem;
+    }
+}
+
+label{
+    margin-left: 1rem;
+}
+input{
+    margin-bottom: 5rem;
+    border: none;
+    width: 75%;
+    border-bottom: 2px solid var(--blue1);
+    color: var(--blue1);
+    font-family: var(--font);
+    outline: none;
+}
+@media(min-width: 768px) {
+    input{
+        width: 50%;
+    }
+}
+
+.fa-credit-card, .fa-user-alt{
+    color: var(--blue2);
+    font-size: 5rem;
+}
+
+.btn{
+    background-color: var(--extras);
+    color: var(--blue1);
+    padding: 1rem 5rem;
+    border: none;
+    font-family: var(--font2);
+    font-size: 2rem;
+    cursor: pointer;
+    margin-left: 10rem ;
+    outline: none;
+}
+
+@media(min-width: 768px) {
+    .btn{
+        float: right;
+    }
+}
+.btn:hover{
+    background-color: var(--blue1);
+    color: var(--extras);
+}
+
+.input-cvv{
+    width: 10%;
+}
+
+.res-container{
+    border-style: solid;
+    border-color: var(--blue2);
+    text-align: center;
+}
+
+@media(min-width: 768px) {
+    
+.data-column {
+    float: left;
+    flex: 70%;
+  }
+  
+  .res-column {
+      float: right;
+      flex: 30%;
+      height: 45rem;
+    }
+  
+  /* Clear floats after the columns */
+  .row {
+    display: flex;
+  }
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+}
+
+.center{
+    display: block;
+    margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ 

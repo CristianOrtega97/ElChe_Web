@@ -5,7 +5,6 @@ $hostpassword = "";
 $hostdatabase = "hotel_che";
 $connection = mysqli_connect($hostname,$hostuser,$hostpassword,$hostdatabase);
 
-
 ?>
 
 
