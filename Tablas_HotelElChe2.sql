@@ -78,8 +78,7 @@ CREATE TABLE `promociones` (
 
 CREATE TABLE `reservacion` (
   `reservacion_id` int(11) NOT NULL,
-  `reservacion_numero` int(11) NOT NULL,
-  `reservacion_usuario` int(11) NOT NULL,
+  `reservacion_nombre` varchar(255) NOT NULL,
   `reservacion_habitacion` int(11) NOT NULL,
   `reservacion_habitacion_tipo` int(11) NOT NULL,
   `reservacion_ingreso` date NOT NULL,
