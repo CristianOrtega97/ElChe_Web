@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 28-07-2020 a las 23:54:11
--- Versión del servidor: 10.4.13-MariaDB
--- Versión de PHP: 7.4.7
+-- Tiempo de generaciÃ³n: 28-07-2020 a las 23:54:11
+-- VersiÃ³n del servidor: 10.4.13-MariaDB
+-- VersiÃ³n de PHP: 7.4.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -28,16 +28,17 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `reservacion` (
-  `reservacion_id` int(11) NOT NULL,
+  `reservacion_id` int(11) NOT NULL AUTO_INCREMENT,
   `reservacion_nombre` varchar(255) NOT NULL,
   `reservacion_numero` int(11) NOT NULL,
   `reservacion_habitacion` int(11) NOT NULL,
   `reservacion_habitacion_tipo` int(11) NOT NULL,
   `reservacion_ingreso` date NOT NULL,
   `reservacion_salida` date NOT NULL,
-  `reservacion_subtotal` decimal(10,0) NOT NULL,
+  `reservacion_subtotal` float NOT NULL,
   `reservacion_promocion` int(11) NOT NULL,
-  `reservacion_total` decimal(10,0) NOT NULL
+  `reservacion_total` float NOT NULL,
+  PRIMARY KEY (`reservacion_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
