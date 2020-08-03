@@ -180,7 +180,6 @@ ALTER TABLE `promociones`
 --
 ALTER TABLE `reservacion`
   ADD PRIMARY KEY (`reservacion_id`),
-  ADD KEY `reservacion_usuario` (`reservacion_usuario`),
   ADD KEY `reservacion_habitacion` (`reservacion_habitacion`),
   ADD KEY `reservacion_habitacion_tipo` (`reservacion_habitacion_tipo`),
   ADD KEY `reservacion_promocion` (`reservacion_promocion`);
