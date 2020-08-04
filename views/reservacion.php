@@ -44,7 +44,7 @@ if ($connection) {
                         <li><a  href="habitaciones.html">Habitaciones</a></li>
                         <li><a  href="nosotros.html">Nosotros</a></li>
                         <li><a  href="aviso.html">Aviso Privacidad</a></li>
-                      </ul>
+                    </ul>
   
             </div>
         </div>
