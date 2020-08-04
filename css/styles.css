@@ -89,6 +89,10 @@ hr{
     display: flex;
     justify-content: center;
 }
+.logo img {
+    width: 15rem;
+    height: 10rem;
+}
 
 li{
     display: inline;
@@ -164,9 +168,134 @@ li{
     .menu-principal a:hover::after{
         transform: scaleX(1);
     }
-    /**/
 }
 
+ /*----------PROMOCIONES----------*/
+ .cont-gen-prom{
+    border-style: double;
+    border-width: 10px;
+    margin-top: 10px;
+ }
+
+ .cont-info-prom h1{
+    font-size: 4.5rem;
+    text-align: center;
+}
+.cont-info-prom h2{
+    font-size: 3.5rem;
+    text-align: center;
+}
+.cont-info-prom h3{
+    font-size: 1.5rem;
+    padding-left: 50px;
+}
+.contenedor-promociones{
+    padding-top: 50px;
+}
+
+.contenedor-caja{
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+}
+
+.seccion-promocion{width: 25%; background-color: #16425B; margin: 20px;min-height: 40vh; border-radius: 10%;}
+
+.nombre-promocion h3{
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.icono-prom{
+    display: flex; flex-direction: row;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.icono-prom img{
+    width: 10%;
+    height: 10%;
+    padding-left: 10px;
+}
+
+.post img{width: 100%;}
+
+.prom-descripcion{
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align:center;
+}
+
+.mas-informacion{
+    text-align: center;
+}
+
+.mas-informacion a{
+    color: #F4E04D;
+    padding: 30px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.ventana-prom{
+    background: #3A7CA5;
+    width: 30%;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 33px;
+    min-height: 250px;
+    border-radius: 22px;
+    position:absolute;
+    left: 34%;
+    top: 35%;
+    display: none;
+    position: fixed;
+}
+
+#cerrar-ventana{
+    position:absolute;
+    right: 5px;
+    top: 1px;
+}
+
+.informacion-detalle{
+    text-align: left;
+}
+
+.boton-reservar{
+    background-color: #F4E04D;
+    color: #3A7CA5;
+}
+
+/*----------LOGIN----------*/
+.cont-gen-login{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-login{
+    display: flex;
+    margin-top: 50px;
+    border-style: double;
+    width: 30%;
+}
+
+.logo-login{
+    width: 35%;
+    margin: 30px;
+}
+.logo-login img{
+    width: 90%;
+    margin: 20px;
+}
+
+/* DAVID RESERVACION*/
 .david_principal{
     border: thin solid grey;
     margin: 20px 5px 0px 5px;
@@ -218,4 +347,443 @@ li{
     transition: all 0.3s ease 0s;
 }
 
+.david_pop-up{
+    background: #3A7CA5;
+    width: 50%;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 33px;
+    position:absolute;
+    position: fixed;
+    left: 25%;
+    top: 10%;
+    display: none;
+    border: thin solid white;
+    z-index: 9999;
+}
+
+/*habitacion*/
+
+/*Habitaciones*/
+section.text-one{
+    background-color: #3A7CA5;
+    color: #2B2D42;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
     
+    select.h{
+      background-color: chartreuse;
+    }
+    
+    #id-example-one{
+      background-color: #16425B;
+      color: #c5d5ea;
+      padding: 5% 5% 5% 5%;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    
+    body>footer{
+      text-align: center;
+    }
+    
+    img{
+        width: 100%;
+    }
+    
+    ul.acorh,
+    ul.acorh * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    }
+    ul.acorh {
+    margin: 10px auto;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    font-size: 18px;
+    }
+    ul.acorh li {
+    list-style: none;
+    }
+    ul.acorh li {
+    display: block;
+    padding: 1%;
+    background: #333;
+    color: #eee;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #666;
+    text-decoration: none;
+    box-sizing: border-box;
+    }
+    ul.acorh li ul {
+    max-height: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    transition: .3s all ease-in;
+    }
+    ul.acorh li li {
+    background: #999;
+    padding: 1%;
+    color: #000;
+    font-size: 16px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    }
+    ul.acorc li li:last-child a {
+    border-bottom: 0;
+    }
+    ul.acorh li:hover ul {
+    max-height: 300px;
+    transition: .3s all ease-in;
+    }
+    ul.acorh li a:hover {
+    background: #666;
+    color: #fff;
+    }
+    
+    .card {
+      /* Add shadows to create the "card" effect */
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      background-color: #8D99AE;
+     padding: 13px;
+    
+    }
+    
+    /* On mouse-over, add a deeper shadow */
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    
+    /* Add some padding inside the card container */
+    .container {
+      padding: 2px 16px;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    /* Float four columns side by side */
+    .column {
+      float: left;
+      width: 33%;
+      padding: 0 10px;
+    }
+    
+    /* Remove extra left and right margins, due to padding in columns */
+    .row {margin: 0 -5px;}
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Style the counter cards */
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+      padding: 16px;
+      text-align: center;
+      background-color: #f1f1f1;
+    }
+    
+    /* Responsive columns - one column layout (vertical) on small screens */
+    @media screen and (max-width: 1000px) {
+      .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+      }
+    }
+    
+    /* Button style */
+    button{
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+
+/*Aviso de privacidad*/
+section.Aviso{
+    background-color: #3A7CA5;
+    color: #2B2D42;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+    
+    #id-example-one{
+      background-color: #16425B;
+      color: #c5d5ea;
+      padding: 5% 5% 5% 5%;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+/* pagos */
+.main-container{
+    background-color: white;
+    border-radius: 5%;
+    color: var(--blue2);
+
+}
+
+@media(min-width: 768px) {
+    .main-container{
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 15%;
+
+    }
+    
+    .exp-select{
+        padding: 2rem 0;        
+    }
+}
+
+.exp-select{
+    display: flex;
+    flex-direction: column;
+}
+
+.exp-select select{
+    width: 50%;
+}
+
+.month-select,.year-select{
+    
+    border: none;
+    border-bottom: 2px solid var(--textColor1);
+    padding: 1rem;
+    color: var(--blue2);
+    font-family: var(--font);
+    outline: none;
+
+}
+
+.main-container{
+    padding: 5rem 5rem;
+
+}
+@media(min-width: 768px) {
+    .main-container{
+        padding: 10rem 25rem;
+    }
+}
+
+label{
+    margin-left: 1rem;
+}
+input{
+    margin-bottom: 5rem;
+    border: none;
+    width: 75%;
+    border-bottom: 2px solid var(--blue1);
+    color: var(--blue1);
+    font-family: var(--font);
+    outline: none;
+}
+@media(min-width: 768px) {
+    input{
+        width: 50%;
+    }
+}
+
+.fa-credit-card, .fa-user-alt{
+    color: var(--blue2);
+    font-size: 5rem;
+}
+
+.btn{
+    background-color: var(--extras);
+    color: var(--blue1);
+    padding: 1rem 5rem;
+    border: none;
+    font-family: var(--font2);
+    font-size: 2rem;
+    cursor: pointer;
+    margin-left: 10rem ;
+    outline: none;
+}
+
+@media(min-width: 768px) {
+    .btn{
+        float: right;
+    }
+}
+.btn:hover{
+    background-color: var(--blue1);
+    color: var(--extras);
+}
+
+.input-cvv{
+    width: 10%;
+}
+
+.res-container{
+    border-style: solid;
+    border-color: var(--blue2);
+    text-align: center;
+}
+
+@media(min-width: 768px) {
+    
+.data-column {
+    float: left;
+    flex: 70%;
+  }
+  
+  .res-column {
+      float: right;
+      flex: 30%;
+      height: 45rem;
+    }
+  
+  /* Clear floats after the columns */
+  .row {
+    display: flex;
+  }
+}
+
+.column img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+}
+
+.center{
+    display: block;
+    margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ /* footer*/
+ .title {
+	font-family: sans-serif;
+	color: #179ea9;
+	margin: 60px 0;
+	text-align: center;
+}
+
+.container {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.social-icons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 0;
+}
+
+.social-icons li {
+	list-style: none;
+}
+
+.social-icons li a {
+	display: block;
+	position: relative;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	font-size: 3em;
+	margin-bottom: 20px;
+	border-radius: 50%;
+	text-align: center;
+	color: #fff;
+	transition: .5s;
+	border: 2px solid #fff;
+	overflow: hidden;
+}
+
+.social-icons li a:hover {
+	transform: scale(1.2);
+}
+
+
+.social-icons li a::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	z-index: -1;
+	transform: scale(1);
+	top: 0;
+	left: 0;
+	transition: .5s;
+}
+
+.social-icons li a:hover::before {
+	transform: scale(0);
+}
+
+.social-icons li:nth-child(1) a,
+.social-icons li:nth-child(1) a:before {
+	background: #3b5999;
+}
+
+.social-icons li:nth-child(2) a,
+.social-icons li:nth-child(2) a:before {
+	background: #55acee;
+}
+
+.social-icons li:nth-child(3) a,
+.social-icons li:nth-child(3) a:before {
+	background: #e4405f;
+}
+
+.social-icons li:nth-child(4) a,
+.social-icons li:nth-child(4) a:before {
+	background: #dd4b39;
+}
+
+
+.social-icons li:nth-child(1) a:hover {
+	background: #fff;
+	border: 2px dashed #3b5999;
+	color: #3b5999;
+}
+
+.social-icons li:nth-child(2) a:hover {
+	background: #fff;
+	border: 2px dashed #55acee;
+	color: #55acee;
+}
+
+.social-icons li:nth-child(3) a:hover {
+	background: #fff;
+	border: 2px dashed #e4405f;
+	color: #e4405f;
+}
+
+.social-icons li:nth-child(4) a:hover {
+	background: #fff;
+	border: 2px dashed #dd4b39;
+	color: #dd4b39;
+}
