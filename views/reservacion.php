@@ -153,6 +153,9 @@ if ($connection) {
                 <strong>Precio</strong>
             </div>
             <div>
+                <h4>$3,500</h4>
+            </div>
+            <div>
                 <button id="btnReservar" onclick="location.href='javascript: abrirVentana()';">Reserva YA!</button>
             </div>
         </div>
@@ -177,6 +180,9 @@ if ($connection) {
         <div class="david_room_price">
             <div>
                 <strong>Precio</strong>
+            </div>
+            <div>
+                <h4>$5,200</h4>
             </div>
             <div>
                 <button id="btnReservar" onclick="location.href='javascript: abrirVentana2()';">Reserva YA!</button>
@@ -207,6 +213,9 @@ if ($connection) {
                 <strong>Precio</strong>
             </div>
             <div>
+                <h4>$6,800</h4>
+            </div>
+            <div>
                 <button id="btnReservar" onclick="location.href='javascript: abrirVentana3()';">Reserva YA!</button>
             </div>
         </div>
@@ -231,6 +240,9 @@ if ($connection) {
         <div class="david_room_price">
             <div>
                 <strong>Precio</strong>
+            </div>
+            <div>
+                <h4>$8,200</h4>
             </div>
             <div>
             <button id="btnReservar" onclick="location.href='javascript: abrirVentana4()';">Reserva YA!</button>
