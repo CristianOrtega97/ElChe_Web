@@ -48,6 +48,4 @@ if ($connection) {
     echo "Problema con conexión";
 }
 
-//INSERT INTO `usuarios` (`usuarios_id`, `usuarios_nombres`, `usuarios_apellidos`, `usuarios_num_empleado`, `usuarios_telefono`, `usuarios_correo`, `usuarios_contra`, `usuarios_tipo`) VALUES (NULL, 'Juan Carlos', 'López', '0', '11224455', 'juan@git.com', '123456', '1');
-
 ?>

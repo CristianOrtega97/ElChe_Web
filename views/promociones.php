@@ -57,6 +57,7 @@ if ($connection) {
          echo '<script>alert("Reservacion guardada con exito");</script>';
          echo "<h3>Da clic al enlace para regresar</h3><br><a href = 'habitaciones.html'> Continuar</a>";
          //header("Location: habitaciones.html");
+
      }
 
 } else {
