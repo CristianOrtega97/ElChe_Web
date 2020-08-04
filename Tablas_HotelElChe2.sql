@@ -78,8 +78,7 @@ CREATE TABLE `promociones` (
 
 CREATE TABLE `reservacion` (
   `reservacion_id` int(11) NOT NULL,
-  `reservacion_numero` int(11) NOT NULL,
-  `reservacion_usuario` int(11) NOT NULL,
+  `reservacion_nombre` varchar(255) NOT NULL,
   `reservacion_habitacion` int(11) NOT NULL,
   `reservacion_habitacion_tipo` int(11) NOT NULL,
   `reservacion_ingreso` date NOT NULL,
@@ -181,7 +180,6 @@ ALTER TABLE `promociones`
 --
 ALTER TABLE `reservacion`
   ADD PRIMARY KEY (`reservacion_id`),
-  ADD KEY `reservacion_usuario` (`reservacion_usuario`),
   ADD KEY `reservacion_habitacion` (`reservacion_habitacion`),
   ADD KEY `reservacion_habitacion_tipo` (`reservacion_habitacion_tipo`),
   ADD KEY `reservacion_promocion` (`reservacion_promocion`);
@@ -292,7 +290,6 @@ ALTER TABLE `numero`
 -- Filtros para la tabla `reservacion`
 --
 ALTER TABLE `reservacion`
-  ADD CONSTRAINT `reservacion_ibfk_1` FOREIGN KEY (`reservacion_usuario`) REFERENCES `usuarios` (`usuarios_id`),
   ADD CONSTRAINT `reservacion_ibfk_2` FOREIGN KEY (`reservacion_habitacion`) REFERENCES `numero` (`numero_id`),
   ADD CONSTRAINT `reservacion_ibfk_3` FOREIGN KEY (`reservacion_habitacion_tipo`) REFERENCES `habitaciones` (`habitaciones_id`),
   ADD CONSTRAINT `reservacion_ibfk_4` FOREIGN KEY (`reservacion_promocion`) REFERENCES `promociones` (`promociones_id`);
