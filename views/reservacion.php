@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?php/*
+=======
+<?php
+>>>>>>> 400ddf87739d3929459e4aeb161c18a82e5e56ec
 
 $host_name = "127.0.0.1";
 $host_user = "root";
