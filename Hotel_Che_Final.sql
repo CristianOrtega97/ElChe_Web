@@ -30,6 +30,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `reservacion` (
   `reservacion_id` int(11) NOT NULL AUTO_INCREMENT,
   `reservacion_nombre` varchar(255) NOT NULL,
+  `reservacion_phone` varchar(255) NOT NULL,
   `reservacion_numero` int(11) NOT NULL,
   `reservacion_habitacion` int(11) NOT NULL,
   `reservacion_habitacion_tipo` int(11) NOT NULL,
