@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-<?php/*
-=======
 <?php
->>>>>>> 400ddf87739d3929459e4aeb161c18a82e5e56ec
-
+/*
 $host_name = "127.0.0.1";
 $host_user = "root";
 $host_pass = "";
@@ -149,13 +145,13 @@ if ($connection) {
         </div>
 
         <div class="david_room_price">
-            <div>
+            <div style="margin-top: 10px; margin-left: 50px;">
                 <strong>Precio</strong>
             </div>
-            <div>
-                <h4>$3,500</h4>
+            <div style="margin-top: 30px; margin-left: 50px;">
+                <h3>$3,500</h3>
             </div>
-            <div>
+            <div style="margin-top: 50px; margin-left: 50px;">
                 <button id="btnReservar" onclick="location.href='javascript: abrirVentana()';">Reserva YA!</button>
             </div>
         </div>
@@ -178,14 +174,14 @@ if ($connection) {
         </div>
 
         <div class="david_room_price">
-            <div>
+            <div style="margin-top: 10px; margin-left: 50px;">
                 <strong>Precio</strong>
             </div>
-            <div>
-                <h4>$5,200</h4>
+            <div style="margin-top: 30px; margin-left: 50px;">
+                <h3>$5,200</h3>
             </div>
-            <div>
-                <button id="btnReservar" onclick="location.href='javascript: abrirVentana2()';">Reserva YA!</button>
+            <div style="margin-top: 50px; margin-left: 50px;">
+                <button id="btnReservar" onclick="location.href='javascript: abrirVentana()';">Reserva YA!</button>
             </div>
         </div>
     </section>
@@ -209,14 +205,14 @@ if ($connection) {
         </div>
 
         <div class="david_room_price">
-            <div>
+            <div style="margin-top: 10px; margin-left: 50px;">
                 <strong>Precio</strong>
             </div>
-            <div>
-                <h4>$6,800</h4>
+            <div style="margin-top: 30px; margin-left: 50px;">
+                <h3>$6,800</h3>
             </div>
-            <div>
-                <button id="btnReservar" onclick="location.href='javascript: abrirVentana3()';">Reserva YA!</button>
+            <div style="margin-top: 50px; margin-left: 50px;">
+                <button id="btnReservar" onclick="location.href='javascript: abrirVentana()';">Reserva YA!</button>
             </div>
         </div>
     </section>
@@ -238,14 +234,14 @@ if ($connection) {
         </div>
 
         <div class="david_room_price">
-            <div>
+            <div style="margin-top: 10px; margin-left: 50px;">
                 <strong>Precio</strong>
             </div>
-            <div>
-                <h4>$8,200</h4>
+            <div style="margin-top: 30px; margin-left: 50px;">
+                <h3>$8,200</h3>
             </div>
-            <div>
-            <button id="btnReservar" onclick="location.href='javascript: abrirVentana4()';">Reserva YA!</button>
+            <div style="margin-top: 50px; margin-left: 50px;">
+                <button id="btnReservar" onclick="location.href='javascript: abrirVentana()';">Reserva YA!</button>
             </div>
         </div>
     </section>
