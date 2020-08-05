@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/slicknav.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <title>Registrar</title>
+</head>
+<body>
+    <header class="site-header">
+        <div class="contenedor">
+            <div class="barra-navegacion">
+                <div class="logo">
+                    <img src="../img/.jpg" alt="logo ">
+                </div>
+
+                <ul id="myDIV" class="menu-principal">
+                    <li><a  href="promociones.html">Promociones</a></li>
+                    <li><a  href="habitaciones.html">Habitaciones</a></li>
+                    <li><a  href="nosotros.html">Nosotros</a></li>
+                    <li><a  href="aviso.html">Aviso Privacidad</a></li>
+                    <li><a  href="buscar.html">Buscar</a></li>
+                  </ul>
+            </div>
+        </div>
+    </header>
+
+    <!--AQUI SU CODIGO-->
+    <div class="cont-gen-login">
+        <div class="contenedor-login">
+            <div class="logo-login">
+                <img src="../img/iniciar-sesion.png" alt="">
+            </div>
+            <form action="registroUsuarios.php" method="POST">
+
+                <p>Nombre: <input type="text" name="nombreUsuario" placeholder="Nombre"></p>
+                <p>Apellidos: <input type="text" name="apellidosUsuario" placeholder="Apellidos"></p>
+                <p>Telefono: <input type="text" name="telefonoUsuario" placeholder="Telefono 8 digitos"></p>
+                <p>Correo: <input type="email" name="correoUsuario" placeholder="Correo electronico"></p>
+                <p>Contraseña: <input type="password" name="contraseña" placeholder="Contraseña"></p>
+                <input type="submit" value="Guardar">
+
+        
+            </form>
+        </div>
+    </div>
+    
+    <footer>
+        
+    </footer>
+
+    
+</body>
+</html>

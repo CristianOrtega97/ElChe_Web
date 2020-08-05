@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/slicknav.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <title>Promociones</title>
+</head>
+<body>
+    <header class="site-header">
+        <div class="contenedor">
+            <div class="barra-navegacion">
+                <div class="logo">
+                    <img src="../img/che.png" alt="logo ">
+                </div>
+                    <ul id="myDIV" class="menu-principal">
+                        <li><a  href="promociones.html">Promociones</a></li>
+                        <li><a  href="habitaciones.html">Habitaciones</a></li>
+                        <li><a  href="nosotros.html">Nosotros</a></li>
+                        <li><a  href="aviso.html">Aviso Privacidad</a></li>
+                        <li><a  href="buscar.html">Buscar</a></li>
+                      </ul>
+  
+            </div>
+        </div>
+    </header>
+    
+    
+    <section class="cont-gen-prom">
+        <!--<VENTANAS DE INFORMACION>-->
+        <div class="ventana-prom" id="vent-prom">
+            <div id="cerrar-ventana"> <a href="javascript: cerrarVentana()"><img src="../img/cerrarVentana.png" alt=""></a></div>
+            DETALLE PROMOCIONES
+            <p>Realiza tu solicitud de reservacion aplicando nuestras promociones disponibles</p>
+            <div class="informacion-detalle">
+                <p>Codigo: 01</p>
+                <p>Costo: $5200.00</p>
+                <p>Habitacion: Doble</p>
+                <form action="promociones.php" method="post">
+                    <input type="hidden" name="codigo" value="01">
+                    <input type="hidden" name="habitacion" value="02">
+                    <input type="hidden" name="costo" value="5200">
+                    <input type="hidden" name="tipohabitacion" value="02">
+                    <p>Nombre Completo <input type="text" name="nombreUsuario" placeholder="Nombre Completo"><br>
+                    <p>Telefono: <input type="text" name="user_phone" placeholder="Telefono"><br> 
+                    Fecha ingreso: <input type="date" name="fechaIngreso"><br>
+                    Fecha salida: <input type="date" name="fechaSalida"></p>
+                    <input class="boton-reservar" type="submit" value="Enviar Solicitud">
+                </form>
+            </div>
+        </div>
+
+        <div class="ventana-prom" id="vent-prom-2">
+            <div id="cerrar-ventana"> <a href="javascript: cerrarVentana2()"><img src="../img/cerrarVentana.png" alt=""></a></div>
+            DETALLE PROMOCIONES
+            <p>Realiza tu solicitud de reservacion aplicando nuestras promociones disponibles</p>
+            <div class="informacion-detalle">
+                <p>Codigo: 02</p>
+                <p>Costo: $6800.00</p>
+                <p>Habitacion: Suite Junior</p>
+                <form action="promociones.php" method="post">
+                    <input type="hidden" name="codigo" value="02">
+                    <input type="hidden" name="habitacion" value="03">
+                    <input type="hidden" name="costo" value="6800">
+                    <input type="hidden" name="tipohabitacion" value="03">
+                    <p>Nombre Completo <input type="text" name="nombreUsuario" placeholder="Nombre Completo"><br>
+                    <p>Telefono: <input type="text" name="user_phone" placeholder="Telefono"><br> 
+                    Fecha ingreso: <input type="date" name="fechaIngreso"><br>
+                    Fecha salida: <input type="date" name="fechaSalida"></p>
+                    <input class="boton-reservar" type="submit" value="Enviar Solicitud">
+                </form>
+            </div>
+        </div>
+        <div class="ventana-prom" id="vent-prom-3">
+            <div id="cerrar-ventana"> <a href="javascript: cerrarVentana3()"><img src="../img/cerrarVentana.png" alt=""></a></div>
+            DETALLE PROMOCIONES
+            <p>Realiza tu solicitud de reservacion aplicando nuestras promociones disponibles</p>
+            <div class="informacion-detalle">
+                <p>Codigo: 03</p>
+                <p>Costo: $8200.00</p>
+                <p>Habitacion: Suite</p>
+                <form action="promociones.php" method="post">
+                    <input type="hidden" name="codigo" value="03">
+                    <input type="hidden" name="habitacion" value="04">
+                    <input type="hidden" name="costo" value="8200">
+                    <input type="hidden" name="tipohabitacion" value="04">
+                    <p>Nombre Completo <input type="text" name="nombreUsuario" placeholder="Nombre Completo"><br>
+                    <p>Telefono: <input type="text" name="user_phone" placeholder="Telefono"><br> 
+                    Fecha ingreso: <input type="date" name="fechaIngreso"><br>
+                    Fecha salida: <input type="date" name="fechaSalida"></p>
+                    <input class="boton-reservar" type="submit" value="Enviar Solicitud">
+                </form>
+            </div>
+        </div>
+        <!--<TERMINA CODIGO VENTANAS>-->
+
+        <div class="cont-info-prom">
+            <h1>PROMOCIONES DE TEMPORADA</h1><br><br>
+            <h2>TUS VACACIONES DE VERANO</h2><br><br>
+            <h3>Hotel ElChé tiene promociones inigualables para ti.</h3>
+            <h3>Date un break de la ciudad y escápate!</h3>
+            <h3>Queremos que estes con nosotros y por ello tenemos estas promociones para que empaques tus maletas y viajes.</h3>
+            <h3>Recuerda que contamos con el programa de certificación sanitaria, para que tú y tu familia se sientan tranquilos durante su estancia.</h3>
+            
+             
+        </div>
+            <section class="contenedor-promociones">
+    
+                    <div class="contenedor-caja">
+                        <div class="seccion-promocion">
+                            <div class="nombre-promocion">
+                                <h3>10% de descuento</h3>
+                            </div>
+                            <div class="post">
+                                <img src="../img/Habitacion1.jpg">
+                            </div>
+                            <div class="icono-prom">
+                                <img src="../img/Taxi.png">
+                                <!--<img src="../img/wifi.png">-->
+                                <img src="../img/Location.png">
+                            </div>
+                            <div class="prom-descripcion"><p>¡Todo incluido!</p></div>
+                            <div class="mas-informacion">
+                                <a href="javascript: abrirVentana()">Mas Informacion</a>
+                            </div>
+                        </div>
+                        <div class="seccion-promocion">
+                            <div class="nombre-promocion">
+                                <h3>20% de descuento</h3>
+                            </div>
+                            <div class="post">
+                                <img src="../img/Habitacion2.jpg">
+                            </div>
+                            <div class="icono-prom">
+                                <img src="../img/Taxi.png">
+                                <!--<img src="../img/wifi.png">-->
+                                <img src="../img/Location.png">
+                            </div>
+                            <div class="prom-descripcion"><p>¡Todo incluido!</p></div>
+                            <div class="mas-informacion">
+                                <a href="javascript: abrirVentana2()">Mas Informacion</a>
+                            </div>
+                        </div>
+                        <div class="seccion-promocion">
+                            <div class="nombre-promocion">
+                                <h3>30% de descuento</h3>
+                            </div>
+                            <div class="post">
+                                <img src="../img/JuniorSuite.jpg">
+                            </div>
+                            <div class="icono-prom">
+                                <img src="../img/Taxi.png">
+                                <!--<img src="../img/wifi.png">-->
+                                <img src="../img/Location.png">
+                            </div>
+                            <div class="prom-descripcion"><p>¡Todo incluido!</p></div>
+                            <div class="mas-informacion">
+                                <a href="javascript: abrirVentana3()">Mas Informacion</a>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+    </section>
+
+    <footer>
+        
+        <h1 class="title">Redes Sociales</h1>
+        <div class="container">
+            <ul class="social-icons">
+                <li><a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://instagram.com"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://aboutme.google.com/u/0/"><i class="fab fa-google-plus-g"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        function abrirVentana(){
+            document.getElementById("vent-prom").style.display ="block";
+        }
+        function abrirVentana2(){
+            document.getElementById("vent-prom-2").style.display ="block";
+        }
+        function abrirVentana3(){
+            document.getElementById("vent-prom-3").style.display ="block";
+        }
+
+        
+
+        function cerrarVentana(){
+            document.getElementById("vent-prom").style.display ="none";
+        }
+        function cerrarVentana2(){
+            document.getElementById("vent-prom-2").style.display ="none";
+        }
+        function cerrarVentana3(){
+            document.getElementById("vent-prom-3").style.display ="none";
+        }
+
+    </script>
+    
+</body>
+</html>

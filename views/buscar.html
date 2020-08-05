@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/slicknav.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+    <title>Buscar Solicitud</title>
+</head>
+<body>
+    <header class="site-header">
+        <div class="contenedor">
+            <div class="barra-navegacion">
+                <div class="logo">
+                    <img src="../img/che.png" alt="logo ">
+                </div>
+                    <ul id="myDIV" class="menu-principal">
+                        <li><a  href="promociones.html">Promociones</a></li>
+                        <li><a  href="habitaciones.html">Habitaciones</a></li>
+                        <li><a  href="nosotros.html">Nosotros</a></li>
+                        <li><a  href="aviso.html">Aviso Privacidad</a></li>
+                        <li><a  href="buscar.html">Buscar</a></li>
+                      </ul>
+  
+            </div>
+        </div>
+    </header>
+    <form action="buscar.php" method="get">
+        <input type="text" name="reservation_number" placeholder="Numero Solicitud">
+        <br/>
+        <br/>
+        <input type="submit" value="Buscar">
+        <a href="https://"></a>
+    </form>
+    <footer>
+        <h1 class="title">Redes Sociales</h1>
+        <div class="container">
+            <ul class="social-icons">
+                <li><a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://instagram.com"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://aboutme.google.com/u/0/"><i class="fab fa-google-plus-g"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <script>
+        function abrirVentana(){
+            document.getElementById("vent-prom").style.display ="block";
+        }
+        function abrirVentana2(){
+            document.getElementById("vent-prom-2").style.display ="block";
+        }
+        function abrirVentana3(){
+            document.getElementById("vent-prom-3").style.display ="block";
+        }
+        function abrirVentana4(){
+            document.getElementById("vent-prom-4").style.display ="block";
+        }
+        
+
+        function cerrarVentana(){
+            document.getElementById("vent-prom").style.display ="none";
+        }
+        function cerrarVentana2(){
+            document.getElementById("vent-prom-2").style.display ="none";
+        }
+        function cerrarVentana3(){
+            document.getElementById("vent-prom-3").style.display ="none";
+        }
+        function cerrarVentana4(){
+            document.getElementById("vent-prom-4").style.display ="none";
+        }
+
+    </script>
+</body>
+
+</html>
