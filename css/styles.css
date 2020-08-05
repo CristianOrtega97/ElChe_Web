@@ -243,17 +243,15 @@ li{
 
 .ventana-prom{
     background: #3A7CA5;
-    width: 30%;
     color: #FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     text-align: center;
-    padding: 33px;
+    padding: 10px;
     min-height: 250px;
     border-radius: 22px;
-    position:absolute;
     left: 34%;
-    top: 35%;
+    top: 5%;
     display: none;
     position: fixed;
 }
@@ -706,7 +704,7 @@ input{
 }
 
 .container {
-	width: 60%;
+    width: 60%; 
 	margin: 0 auto;
 }
 
