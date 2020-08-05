@@ -1,16 +1,30 @@
 <?php
+<<<<<<< HEAD
 /*
+=======
+
+>>>>>>> c7fff8db10dec9b2bd9f5b6f0ae86fb06eae78bd
 $host_name = "127.0.0.1";
 $host_user = "root";
 $host_pass = "";
 $database = "hotel_che";
+<<<<<<< HEAD
 $connection = mysqli_connect($host_name, $host_user, $host_pass, $database);
+=======
+
+$connection = mysqli_connect($host_name, $host_user, $host_pass, $database);
+
+>>>>>>> c7fff8db10dec9b2bd9f5b6f0ae86fb06eae78bd
 if ($connection) {
     echo "You're connected!";    
 } else {
     echo "Sorry, NOT connected";
 }
+<<<<<<< HEAD
 */
+=======
+
+>>>>>>> c7fff8db10dec9b2bd9f5b6f0ae86fb06eae78bd
 ?>
 
 <!DOCTYPE html>
@@ -20,17 +34,25 @@ if ($connection) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
     <link rel="stylesheet" type="text/css" href="../css/slicknav.min.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <title>Promociones</title>
+=======
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <title>Reserva Ya!</title>
+>>>>>>> c7fff8db10dec9b2bd9f5b6f0ae86fb06eae78bd
 </head>
 <body>
     <header class="site-header">
         <div class="contenedor">
             <div class="barra-navegacion">
                 <div class="logo">
+<<<<<<< HEAD
                     <img src="../img/che.png" alt="logo ">
                 </div>
                     <ul id="myDIV" class="menu-principal">
@@ -152,10 +174,40 @@ if ($connection) {
             </div>
             <div style="margin-top: 50px; margin-left: 50px;">
                 <button id="btnReservar" onclick="location.href='javascript: abrirVentana()';">Solicitar</button>
+=======
+                <img src="../img/.jpg" alt="logo ">
+                </div>
+
+                <ul id="myDIV" class="menu-principal">
+                    <li><a  href="promociones.html">Promociones</a></li>
+                    <li><a  href="habitaciones.html">Habitaciones</a></li>
+                    <li><a  href="nosotros.html">Nosotros</a></li>
+                    <li><a  href="aviso.html">Aviso Privacidad</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class= "david_principal">
+        Nombre del Cuarto
+        <div class="david_room_info">
+            <div class="david_photo_room">
+                <img src="../img/cuarto_hotel1.jpg">
+            </div>
+            <div class="david_desc_room">
+                Descripción
+            </div>
+            <div class="david_price_room">
+                <div>
+                Precios
+                </div>
+                    <a class="david_button_reserva" href="pagos.php" target="_blank" rel="nofollow noopener">Reserva YA!</a>
+>>>>>>> c7fff8db10dec9b2bd9f5b6f0ae86fb06eae78bd
             </div>
         </div>
     </section>
 
+<<<<<<< HEAD
     <section class="david_principal">
         <div style="width: 75%;">
             <strong style="margin: 5px;">Habitación Doble</strong>
@@ -181,10 +233,25 @@ if ($connection) {
             </div>
             <div style="margin-top: 50px; margin-left: 50px;">
                 <button id="btnReservar" onclick="location.href='javascript: abrirVentana()';">Solicitar</button>
+=======
+    <section class= "david_principal">
+        Nombre del Cuarto
+        <div class="david_room_info">
+            <div class="david_photo_room">
+                <img src="../img/cuarto_hotel2.jpg">
+            </div>
+            <div class="david_desc_room">
+                Descripción
+            </div>
+             <div class="david_price_room">
+                Precios
+                <a class="david_button_reserva" href="pagos.php" target="_blank" rel="nofollow noopener">Reserva YA!</a>
+>>>>>>> c7fff8db10dec9b2bd9f5b6f0ae86fb06eae78bd
             </div>
         </div>
     </section>
 
+<<<<<<< HEAD
     <section class="david_principal">
         <div style="width: 75%;">
             <strong style="margin: 5px;">Habitación Jr. Suite</strong>
@@ -241,11 +308,44 @@ if ($connection) {
             </div>
             <div style="margin-top: 50px; margin-left: 50px;">
                 <button id="btnReservar" onclick="location.href='javascript: abrirVentana()';">Solicitar</button>
+=======
+    <section class= "david_principal">
+        Nombre del Cuarto
+        <div class="david_room_info">
+            <div class="david_photo_room">
+                <img src="../img/cuarto_hotel3.jpg">
+            </div>
+            <div class="david_desc_room">
+                Descripción
+            </div>
+             <div class="david_price_room">
+                Precios
+                <a class="david_button_reserva" href="pagos.php" target="_blank" rel="nofollow noopener">Reserva YA!</a>
+
+            </div>
+        </div>
+    </section>
+
+    <section class= "david_principal">
+        Nombre del Cuarto
+        <div class="david_room_info">
+            <div class="david_photo_room">
+                <img src="../img/cuarto_hotel4.jpg">
+            </div>
+            <div class="david_desc_room">
+                Descripción
+            </div>
+             <div class="david_price_room">
+                Precios
+                <a class="david_button_reserva" href="pagos.php" target="_blank" rel="nofollow noopener">Reserva YA!</a>
+
+>>>>>>> c7fff8db10dec9b2bd9f5b6f0ae86fb06eae78bd
             </div>
         </div>
     </section>
 
     <footer>
+<<<<<<< HEAD
         <h1 class="title">Redes Sociales</h1>
         <div class="container">
             <ul class="social-icons">
@@ -287,5 +387,11 @@ if ($connection) {
 
     </script>
 
+=======
+        
+    </footer>
+
+    
+>>>>>>> c7fff8db10dec9b2bd9f5b6f0ae86fb06eae78bd
 </body>
 </html>

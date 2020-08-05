@@ -15,7 +15,10 @@ if ($connection) {
     $tipoHabitacion = $_POST["tipohabitacion"];
     $promocion = $_POST["codigo"];
     $costo = $_POST["costo"];
+<<<<<<< HEAD
     $user_phone = $_POST["user_phone"];
+=======
+>>>>>>> c7fff8db10dec9b2bd9f5b6f0ae86fb06eae78bd
     
     $fechaIngreso = $_POST["fechaIngreso"];
     $fechaSalida = $_POST["fechaSalida"];
@@ -33,6 +36,7 @@ if ($connection) {
             }
     $total = $costo * $dias;//total precio habitacion por dias con descuento
 
+<<<<<<< HEAD
 
     
 
@@ -125,3 +129,37 @@ if ($connection) {
 
 </body>
 </html>
+=======
+   echo "<h3>Datos de reservacion.</h3><br>";         
+   echo "Numero reservacion: ".$numeroReservacion."<br>";
+   echo "Nombre completo: ".$nombreUsuario."<br>";
+   echo "Dias: ".$dias."<br>";
+   echo "Fecha ingreso: ".$fechaIngreso."<br>";
+   echo "Fecha Salida: ".$fechaSalida."<br>";
+   echo "Promocion: ".$promocion."<br>";
+   echo "Subtotal:  ".$subtotal."<br>";
+   echo "Total con descuento: ".$total."<br>";
+    
+
+    $insertarReservacion = "INSERT INTO reservacion (reservacion_nombre, reservacion_numero, 
+    reservacion_habitacion, reservacion_habitacion_tipo, reservacion_ingreso, reservacion_salida,
+    reservacion_subtotal, reservacion_promocion, reservacion_total)
+    VALUES ('$nombreUsuario', '$numeroReservacion', '$habitacion', '$tipoHabitacion', '$fechaIngreso', '$fechaSalida', '$subtotal', '$promocion', '$total')";
+    //Ejecutar consulta
+     $resultado = mysqli_query($connection,$insertarReservacion);
+     if(!$resultado){
+         echo '<script>alert("Error al registrar");</script>';
+         echo "<a href = 'habitaciones.html'>Regresar</a>";
+ 
+     }else{
+         echo '<script>alert("Reservacion guardada con exito");</script>';
+         echo "<h3>Da clic al enlace para regresar</h3><br><a href = 'habitaciones.html'> Continuar</a>";
+         //header("Location: habitaciones.html");
+
+     }
+
+} else {
+    echo "Problema con conexión";
+}
+?>
+>>>>>>> c7fff8db10dec9b2bd9f5b6f0ae86fb06eae78bd
